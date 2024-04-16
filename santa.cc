@@ -161,7 +161,7 @@ void RunSimple(LoaderArgs& loader, InferenceArgs& inference, AppArgs& app, std::
 #include <fstream>
 #include <sstream>
 
-#define MODEL_PATH "/home/darkchien/model/"
+#define MODEL_PATH "/home/PATH_TO_THE_MODEL_DIR"
 
 int main(int argc, char** argv) {
   gcpp::LoaderArgs loader(argc, argv);
