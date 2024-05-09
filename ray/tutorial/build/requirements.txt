@@ -1,0 +1,21 @@
+ipython==8.22.2
+torch==2.2.1
+ray==2.10.0
+ray[data]==2.10.0
+ray[train]==2.10.0
+ray[tune]==2.10.0
+datasets==2.17.0
+transformers==4.38.1
+evaluate==0.4.1
+rouge-score==0.1.2
+nltk==3.8.1
+accelerate==0.27.1
+bitsandbytes==0.42.0
+peft==0.8.2
+trl==0.7.10
+# flash-attn==2.5.5
+pyarrow==15.0.2
+fsspec==2023.10.0
+gcsfs==2023.10.0
+etils==1.7.0
+importlib-resources==6.1.2
