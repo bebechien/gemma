@@ -20,9 +20,9 @@ def train_func(config):
         for i in range(len(example)):
           messages = [
             {"role": "user",
-             "content": f"Summarize the following ARTICLE in one sentence.\n###ARTICLE: {example['document'][i]}"},
+             "content": f"Summarize the following ARTICLE in one sentence.\\n###ARTICLE: {example['document'][i]}"},
             {"role": "assistant",
-             "content": f"{example['summary'][i]}"} # Make minor gemma fixes #2029
+             "content": f"{example['summary'][i]}<eos>"} # Make minor gemma fixes #2029
              ]
           output_texts.append(tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False))
         return output_texts
