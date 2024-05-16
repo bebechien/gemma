@@ -72,7 +72,7 @@ def main():
 
           # prepare dataset
           messages = [{"role": "user",
-                      "content": f"Summarize the following ARTICLE in one sentence.\n###ARTICLE: {document}"}
+                      "content": f"Summarize the following ARTICLE in one sentence.\\n###ARTICLE: {document}"}
                       for document in batch["document"]]
 
           batch['prompt'] = [self.tokenizer.apply_chat_template([message], tokenize=False, add_generation_prompt=True)
