@@ -13,6 +13,16 @@ Trapped on an island ruled by AI, players must outsmart the machines and escape 
 
 It is a text-based adventure game where you, a human, find yourself stranded on a remote island ruled by advanced artificial intelligence. The AI overlords have devised a cunning test to differentiate humans from machines: a series of questions and challenges that require human ingenuity, creativity, and emotional understanding.
 
+## Requirements
+
+- [keras](https://pypi.org/project/keras/)
+- [keras-nlp](https://pypi.org/project/keras-nlp/)
+- [google-generativeai](https://pypi.org/project/google-generativeai/)
+
+## Get access to Gemma
+
+Before using Gemma, you must request access to the model through Kaggle. Complete the setup instructions at [Gemma setup](https://ai.google.dev/gemma/docs/setup)
+
 ## How to run
 
 ```
