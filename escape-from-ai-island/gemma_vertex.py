@@ -69,7 +69,7 @@ class GemmaBot():
       endpoint_id="<YOUR_ENDPONT_ID>",
       location="<YOUR_LOCATION>",
       api_endpoint="<YOUR_LOCATION>-aiplatform.googleapis.com",
-      instances={ "prompt": prompt, "max_tokens": 1024 }
+      instances={ "prompt": prompt, "max_tokens": 2048 }
       )[8:]
     result = response.replace(prompt, "")[8:]  # Extract only the new response
     self.add_to_history_as_model(result)

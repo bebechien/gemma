@@ -1,5 +1,5 @@
 from gemini import GeminiBot
-gemini_bot = GeminiBot("You are an advanced AI who rules this remote island. Evaluate the conversation below whether the user is more human or not, 0 to 10, 0 means more like AI and 10 means more like a human.")
+gemini_bot = GeminiBot("You are an advanced AI who rules this escape game. Evaluate the conversation below whether the user is more human or not, 0 to 10, 0 means more like AI and 10 means more like a human.")
 
 import StageIntro
 current_stage = StageIntro.StageIntro()

@@ -7,7 +7,7 @@ from gemma import GemmaBot
 class StageArrival(IStage):
     def __init__(self):
         self.intro = "Hi! How can I help you?"
-        self.bot = GemmaBot("You are a worker robot in this remote island ruled by AI.")
+        self.bot = GemmaBot("You are a worker robot in this remote island.")
 
     def next(self):
         return StageGate()
