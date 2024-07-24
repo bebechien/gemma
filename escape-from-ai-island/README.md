@@ -4,14 +4,11 @@
 
 ![title image](title.jpg)
 
-> Image created by [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx)\
-> Prompt: ```Escape from AI Island, find yourself stranded on a remote island ruled by advanced artificial intelligence, monochrome sketch```
+> Image created by [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx)
 
-Trapped on an island ruled by AI, players must outsmart the machines and escape using logic, cunning, and collaboration.
+In this captivating game, you, the player, awaken on a distant island governed by a sophisticated artificial intelligence. You have to find a way to escape this island.
 
 > Note: The game's concept drew inspiration from "[Turing test](https://en.wikipedia.org/wiki/Turing_test)" while its name was derived from an classic adventure game "[Escape from Monkey Island](https://en.wikipedia.org/wiki/Escape_from_Monkey_Island)".
-
-It is a text-based adventure game where you, a human, find yourself stranded on a remote island. We have devised a series of questions and challenges that require human ingenuity, creativity, and emotional understanding.
 
 ## Requirements
 
