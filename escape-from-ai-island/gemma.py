@@ -3,7 +3,7 @@
 import keras
 import keras_nlp
 
-model_name = "gemma_1.1_instruct_2b_en"
+model_name = "gemma2_instruct_2b_en"
 
 class GemmaBot():
   __START_TURN_USER__ = "<start_of_turn>user\n"
@@ -19,7 +19,7 @@ class GemmaBot():
       self.history.append(self.__START_TURN_USER__ + message + self.__END_TURN__)
 
   def add_to_history_as_model(self, message):
-      self.history.append(self.__START_TURN_MODEL__ + message + self.__END_TURN__)
+      self.history.append(self.__START_TURN_MODEL__ + message)
 
   def get_history(self):
       return "".join([*self.history])
@@ -33,8 +33,7 @@ class GemmaBot():
   def ask(self, message):
     self.add_to_history_as_user(message)
     prompt = self.get_full_prompt()
-    response = self.model.generate(prompt, max_length=1024)
+    response = self.model.generate(prompt, max_length=2048)
     result = response.replace(prompt, "")  # Extract only the new response
     self.add_to_history_as_model(result)
     return result
-
