@@ -1,5 +1,5 @@
-from gemini import GeminiBot
-gemini_bot = GeminiBot("You are an advanced AI who rules this escape game. Evaluate the conversation below whether the user is more human or not, 0 to 10, 0 means more like AI and 10 means more like a human.")
+from gemma import GemmaBot
+admin_bot = GemmaBot("You are an advanced AI who rules this escape game. Evaluate the conversation below whether the user is more human or not, 0 to 10, 0 means more like AI and 10 means more like a human.")
 
 import StageIntro
 current_stage = StageIntro.StageIntro()
@@ -28,11 +28,11 @@ def game_loop():
         print(text)
         resp = input("\n> ")
 
-    print(gemini_bot.judge(current_stage.bot.get_history()))
+    print(admin_bot.judge(current_stage.bot.get_history()))
 
 def check_end_condition():
     if not current_stage.pass_check():
-        check = gemini_bot.end_of_game()
+        check = admin_bot.end_of_game()
         print("Succeed to escape?")
         print(check)
         if check.lower().startswith("true"):
