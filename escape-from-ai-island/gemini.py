@@ -13,7 +13,7 @@ class GeminiBot():
         return model.generate_content(message).text
 
     def judge(self, message):
-        return chat.send_message(self.system + "\n" + message).text
+        return chat.send_message(message + "\n" + self.system).text
 
     def end_of_game(self):
         return chat.send_message("Did the user successfuly escape the island? Answer it only with True or False without any explanation.").text

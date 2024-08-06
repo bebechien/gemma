@@ -39,7 +39,8 @@ class GemmaBot():
     return result
 
   def judge(self, message):
-    return self.ask(self.system + "\n" + message)
+    self.history = []
+    return self.ask(message + "\n" + self.system)
 
   def end_of_game(self):
     return self.ask("Did the user successfuly escape the island? Answer it only with True or False without any explanation.")
