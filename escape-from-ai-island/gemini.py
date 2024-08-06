@@ -13,7 +13,6 @@ class GeminiBot():
         return model.generate_content(message).text
 
     def judge(self, message):
-        text_response = []
         return chat.send_message(self.system + "\n" + message).text
 
     def end_of_game(self):

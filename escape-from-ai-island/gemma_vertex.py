@@ -69,9 +69,15 @@ class GemmaBot():
       endpoint_id="<YOUR_ENDPONT_ID>",
       location="<YOUR_LOCATION>",
       api_endpoint="<YOUR_LOCATION>-aiplatform.googleapis.com",
-      instances={ "prompt": prompt, "max_tokens": 2048 }
-      )[8:]
-    result = response.replace(prompt, "")[8:]  # Extract only the new response
+      instances={ "inputs": prompt, "max_tokens": 2048 }
+      )
+    result = response.replace(prompt, "")  # Extract only the new response
     self.add_to_history_as_model(result)
     return result
 
+  def judge(self, message):
+    self.history = []
+    return self.ask(self.system + "\n" + message)
+
+  def end_of_game(self):
+    return self.ask("Did the user successfuly escape the island? Answer it only with True or False without any explanation.")

@@ -37,3 +37,9 @@ class GemmaBot():
     result = response.replace(prompt, "")  # Extract only the new response
     self.add_to_history_as_model(result)
     return result
+
+  def judge(self, message):
+    return self.ask(self.system + "\n" + message)
+
+  def end_of_game(self):
+    return self.ask("Did the user successfuly escape the island? Answer it only with True or False without any explanation.")
