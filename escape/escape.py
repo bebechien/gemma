@@ -1,5 +1,5 @@
 from gemma import GemmaBot
-admin_bot = GemmaBot("You are an advanced AI who rules this escape game. Summarize the conversation below.")
+admin_bot = GemmaBot("You are an advanced AI who rules this escape game. Summarize the conversation above.")
 
 import StageIntro
 current_stage = StageIntro.StageIntro()

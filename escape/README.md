@@ -1,4 +1,4 @@
-# Escape from AI Island
+# The Long Way Home
 
 ## Background
 
@@ -6,7 +6,7 @@
 
 > Image created by [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx)
 
-In this captivating game, you, the player, awaken on a distant island governed by a sophisticated artificial intelligence. You have to find a way to escape this island.
+In this captivating game, you, the player, awaken on a distant island. You have to find a way to escape this island.
 
 ## Requirements
 
