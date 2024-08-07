@@ -12,7 +12,7 @@ In this captivating game, you, the player, awaken on a distant island. You have 
 
 - [keras](https://pypi.org/project/keras/)
 - [keras-nlp](https://pypi.org/project/keras-nlp/)
-- [google-generativeai](https://pypi.org/project/google-generativeai/)
+- [Optional] [google-generativeai](https://pypi.org/project/google-generativeai/) (if you use gemini.py)
 - [Optional] [google-cloud-aiplatform](https://pypi.org/project/google-cloud-aiplatform/) (if you use gemma_vertex.py)
 
 ## Get access to Gemma
