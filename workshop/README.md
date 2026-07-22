@@ -4,6 +4,7 @@ A collection of AI study sessions, workshops, and event notes.
 
 | Date | Topic & Markdown Document | Title Image |
 | :--- | :--- | :---: |
+| **2026-07-23** | [GDGoC KIT](20260723.GDGoC%20KIT.md) | <img src="20260723.GDGoC%20KIT.png" width="360" alt="GDGoC KIT" /> |
 | **2026-07-19** | [AI Dojo Season 2](20260719.AI%20Dojo%20Season2.md) | <img src="20260719.AI%20Dojo%20Season2.png" width="360" alt="AI Dojo Season 2" /> |
 | **2026-07-16** | [ChangGoo](20260716.ChangGoo.md) | <img src="20260716.ChangGoo.png" width="360" alt="ChangGoo" /> |
 | **2026-07-14** | [AI Live Labs](20260714.AI%20Live%20Labs.md) | <img src="20260714.AI%20Live%20Labs.png" width="360" alt="AI Live Labs" /> |
