@@ -4,6 +4,7 @@ A collection of AI study sessions, workshops, and event notes.
 
 | Date | Topic & Markdown Document | Title Image |
 | :--- | :--- | :---: |
+| **2026-07-30** | [Dev Night](20260730.Dev%20Night.md) | <img src="20260730.Dev%20Night.png" width="360" alt="Dev Night" /> |
 | **2026-07-28** | [AI Builders](20260728.AI%20Builders.md) | <img src="20260728.AI%20Builders.png" width="360" alt="AI Builders" /> |
 | **2026-07-23** | [GDGoC KIT](20260723.GDGoC%20KIT.md) | <img src="20260723.GDGoC%20KIT.png" width="360" alt="GDGoC KIT" /> |
 | **2026-07-19** | [AI Dojo Season 2](20260719.AI%20Dojo%20Season2.md) | <img src="20260719.AI%20Dojo%20Season2.png" width="360" alt="AI Dojo Season 2" /> |
