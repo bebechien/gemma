@@ -4,7 +4,7 @@ A collection of AI study sessions, workshops, and event notes.
 
 | Date | Topic & Markdown Document | Title Image |
 | :--- | :--- | :---: |
-| **2026-10-13** | [Cloud OnAir](20261013.Cloud%20OnAir.md) | <img src="20261013.Cloud%20OnAir.png" width="360" alt="Cloud OnAir" /> |
+| **2026-10-13** | [Cloud OnAir](20261013.Cloud%20OnAir.md) | <img src="20261013.Cloud%20OnAir.gif" width="360" alt="Cloud OnAir" /> |
 | **2026-07-30** | [Dev Night](20260730.Dev%20Night.md) | <img src="20260730.Dev%20Night.png" width="360" alt="Dev Night" /> |
 | **2026-07-28** | [AI Builders](20260728.AI%20Builders.md) | <img src="20260728.AI%20Builders.png" width="360" alt="AI Builders" /> |
 | **2026-07-23** | [GDGoC KIT](20260723.GDGoC%20KIT.md) | <img src="20260723.GDGoC%20KIT.png" width="360" alt="GDGoC KIT" /> |
