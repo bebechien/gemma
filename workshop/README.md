@@ -4,6 +4,7 @@ A collection of AI study sessions, workshops, and event notes.
 
 | Date | Topic & Markdown Document | Title Image |
 | :--- | :--- | :---: |
+| **2026-10-17** | [KR Dev Community Summit](20261017.KR%20Dev%20Community%20Summit.md) | <img src="20261017.KR%20Dev%20Community%20Summit.png" width="360" alt="KR Dev Community Summit" /> |
 | **2026-10-13** | [Cloud OnAir](20261013.Cloud%20OnAir.md) | <img src="20261013.Cloud%20OnAir.gif" width="360" alt="Cloud OnAir" /> |
 | **2026-07-30** | [Dev Night](20260730.Dev%20Night.md) | <img src="20260730.Dev%20Night.png" width="360" alt="Dev Night" /> |
 | **2026-07-28** | [AI Builders](20260728.AI%20Builders.md) | <img src="20260728.AI%20Builders.png" width="360" alt="AI Builders" /> |
